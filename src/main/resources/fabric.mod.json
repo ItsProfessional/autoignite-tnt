@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autoignite-tnt",
+  "version": "${version}",
+  "name": "AutoIgnite TNT",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/autoignite-tnt"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/autoignite-tnt/icon.png",
+  "environment": "*",
+  "mixins": [
+    "autoignite-tnt.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

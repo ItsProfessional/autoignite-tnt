@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.proferk.autoignitetnt.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TntBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
